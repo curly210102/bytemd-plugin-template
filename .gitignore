@@ -1,0 +1,9 @@
+*.log
+.DS_Store
+node_modules
+dist
+lib
+package-lock.json
+tsconfig.tsbuildinfo
+coverage
+tsconfig.json
