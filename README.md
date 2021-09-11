@@ -5,8 +5,8 @@ This is a project template for ByteMD plugin. It lives at [https://github.com/cu
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ``` js
-npx degit sveltejs/template svelte-app
-cd svelte-app
+npx degit curly210102/bytemd-plugin-template bytemd-plugin
+cd bytemd-plugin
 ```
 
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
@@ -16,7 +16,6 @@ cd svelte-app
 Install the dependencies...
 
 ```bash
-cd bytemd-plugin
 npm install
 ```
 
@@ -26,11 +25,13 @@ npm install
 npm run dev
 ```
 
+...then open another terminal panel, start preview:
+
 ``` bash
-cd example && npm run dev
+cd example && npm install && npm run dev
 ```
 
-Navigate to [localhost:8080](http://localhost:8080). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
+Navigate to [localhost:9000](http://localhost:9000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
 
 If you're using [Visual Studio Code](https://code.visualstudio.com/) we recommend installing the official extension [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode). If you are using other editors you may need to install a plugin in order to get syntax highlighting and intellisense.
 
@@ -41,8 +42,6 @@ To create an optimised version of the app:
 ```bash
 npm run build
 ```
-
-You can run the newly built app with `npm run start`.
 
 ## Using TypeScript
 
