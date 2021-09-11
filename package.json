@@ -13,25 +13,16 @@
   ],
   "scripts": {
     "dev": "rollup -c -w",
-    "build": "rollup -c",
-    "start": "sirv public"
+    "build": "rollup -c"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^20.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.4",
-    "@rollup/plugin-replace": "^3.0.0",
-    "postcss": "^8.3.6",
-    "remark-gemoji": "^7.0.0",
+    "bytemd": "latest",
     "rollup": "^2.56.3",
-    "rollup-plugin-css-only": "^3.1.0",
-    "rollup-plugin-livereload": "^2.0.5",
-    "rollup-plugin-postcss": "^4.0.1",
     "rollup-plugin-svelte": "^7.1.0",
     "rollup-plugin-terser": "^7.0.2",
-    "sirv-cli": "^1.0.14",
-    "svelte": "^3.42.4",
-    "bytemd": "latest"
+    "svelte": "^3.42.4"
   },
   "peerDependencies": {
     "bytemd": "^1.5.0"
